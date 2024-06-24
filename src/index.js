@@ -1,4 +1,5 @@
 import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -16,20 +17,6 @@ import Player8 from './PlayersData/Player8';
 import Player9 from './PlayersData/Player9';
 import Player10 from './PlayersData/Player10';
 import Player11 from './PlayersData/Player11';
-
-
-
-
-
-
-
-
-
- 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 
 
 const router = createBrowserRouter(
