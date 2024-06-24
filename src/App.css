@@ -36,3 +36,241 @@
     transform: rotate(360deg);
   }
 }
+body
+{
+  background: url('https://www.iplt20.com/assets/images/bottom-section-bg-mobile.svg') repeat-y ;
+  /*background-position: 50%;
+  background-position: left top,right bottom 20px;*/
+  background-position: center top;
+  background-size: 110%;
+}
+.navigation
+{
+  background-color: rgb(240, 89, 19);
+  height: 80px;
+}
+@media (max-width: 760px) {
+  .navigation {
+    height: 130px;
+  }
+}
+
+.navbtn
+{
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  padding:10px;
+  color: black;
+  text-decoration: none;
+}
+.navbtn:hover
+{
+ color: aliceblue;
+ 
+}
+.ulTeam
+{
+  list-style-type: none;
+  display: flex;
+}
+.teamPicSize
+{
+  width: 300px;
+  height: 300px;
+}
+.cords
+{
+  box-shadow: #282c34;
+}
+
+.insideCord
+{
+   
+   margin: 20px;
+   border: 1px  black;
+   background-color: rgba(240, 248, 255, 0.686);
+   
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+   
+}
+.insideCord:hover
+{
+  background-color: rgb(236, 107, 15);
+}
+
+.footerImg{
+  display: flex;
+  
+}
+@media (max-width: 760px) {
+  .footerImg {
+    display:none;
+  }
+}
+Link
+{
+  text-decoration: none;
+}
+.section-1
+{
+  background-color: rgba(22, 13, 3, 0.951);
+  background-size: cover;
+
+  padding: 40px;
+}
+
+.card
+{
+
+  background-color: rgba(12, 16, 74, 0.832);
+ 
+  color: azure;
+  padding: 5%;
+}
+.cord-hover
+{
+  background-color: rgba(12, 16, 74, 0.832);
+}
+.cord-hover:hover
+{
+  background-color: darkkhaki;
+}
+td{
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.td-1
+{
+  font-size: 25px;
+  text-decoration: double;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: chocolate;
+}
+.cords-2
+{
+  background-color: antiquewhite;
+}
+.profile,a
+{
+  
+  font-size: 20px;
+  justify-content: end;
+  text-decoration: none;
+  color: rgb(239, 181, 181);
+}
+.profile:hover
+{
+  color: rgb(236, 107, 15);
+}
+
+.sliding-pics
+{
+height:500px;
+}
+@media (max-width: 760px) {
+  .sliding-pics {
+    height: 200px;
+  }
+}
+.new-sponsor-panel
+{
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: #081e40;
+  display: flex;
+  justify-content: space-between;
+}
+.footDivMain
+{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+@media (max-width: 760px) {
+  .footDivMain {
+    flex-direction: column;
+  }
+}
+.footSection
+{
+  width:auto;
+  height: 200px;
+  text-align: center;
+  
+}
+.teams-icon
+{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-2
+{
+  width:510px;
+  height: auto;
+  text-align: left;
+  background-color: #081e40c6;
+  color: azure;
+}
+@media (max-width: 760px) {
+  .section-2 {
+    width: auto;
+  }
+}
+ul
+{
+  list-style: none;
+  text-transform: capitalize;
+  
+}
+.footer2Bg
+{
+  background: url('https://www.iplt20.com/assets/images/footer-sparkel-top.svg'),url('https://www.iplt20.com/assets/images/footer-sparkel-bottom.svg');
+  background-position: left top,right bottom 47px;
+  background-repeat: no-repeat;
+}
+.copyRight
+{
+  background-color: rgb(32, 34, 34);
+  color: antiquewhite;
+  height: 50px;
+  text-align: center;
+}
+
+.playerBg
+{
+  display: flex;
+  justify-content: center;
+  height: 400px;
+ 
+ 
+}
+/*.sec1{
+   margin-left: 32%;
+}*/
+@media (max-width: 760px) {
+  .playerBg {
+    flex-direction: column;
+  }
+}
+
+
+.bg1-secondary
+{
+  background-color: rgb(234, 223, 212);
+}
+@media (max-width: 760px) {
+.secPlay
+{
+ margin-left: 25%;
+}
+}
+
+
