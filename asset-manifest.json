@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Srh-Team/static/css/main.06add8ed.css",
+    "main.js": "/Srh-Team/static/js/main.af9997e7.js",
+    "static/js/453.e418d62b.chunk.js": "/Srh-Team/static/js/453.e418d62b.chunk.js",
+    "index.html": "/Srh-Team/index.html",
+    "main.06add8ed.css.map": "/Srh-Team/static/css/main.06add8ed.css.map",
+    "main.af9997e7.js.map": "/Srh-Team/static/js/main.af9997e7.js.map",
+    "453.e418d62b.chunk.js.map": "/Srh-Team/static/js/453.e418d62b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06add8ed.css",
+    "static/js/main.af9997e7.js"
+  ]
+}
